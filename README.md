@@ -4,6 +4,4 @@ With some handy helper methods.
 
 ## Installing
 
-TODO: Is there easier way ?
-
-Clone this repo, run git submodule init to get the dependecies and symlink everythign under libraries to <arduino sketch dir>/libraries/
+Clone this repo to your arduino libraries folder, then clone git://github.com/rambo/I2C.git there as well
