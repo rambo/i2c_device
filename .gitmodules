@@ -1,0 +1,3 @@
+[submodule "libraries/I2C"]
+	path = libraries/I2C
+	url = git://github.com/rambo/I2C.git
