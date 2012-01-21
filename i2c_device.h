@@ -1,7 +1,7 @@
 // safety againts double-include
 #ifndef i2c_device_h
 #define i2c_device_h
-#include <WProgram.h> 
+#include <Arduino.h> 
 // Defined here for now due to a problem with scope
 #define I2C_DEVICE_DEBUG
 /**
