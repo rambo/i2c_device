@@ -72,9 +72,9 @@ boolean i2c_device::write(byte address, byte value)
 /**
  * Write multiple bytes and check result
  */
-boolean i2c_device::write_many(byte address, byte num, byte *source)
+boolean i2c_device::write_many(byte address, byte num, void *source)
 {
-    byte result = I2c.write(device_address, address, source, num);
+    byte result = I2c.write(device_address, address, (byte*) source, num);
     if (result > 0)
     {
 #ifdef I2C_DEVICE_DEBUG
