@@ -10,7 +10,7 @@ void setup()
     Serial.begin(115200);
     // Set device address and call Wire.begin() (note: fake addesss)
     device.begin(0xfe, true);
-    Serial.println("Booted");
+    Serial.println(F("Booted"));
 }
 
 void loop()
